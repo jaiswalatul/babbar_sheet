@@ -60,6 +60,7 @@ int main(){
     q.enque(10);
     q.enque(30);
     q.enque(20);
+    q.deque();
 
     cout<<q.getfront()<<endl;
     cout<<q.getrear()<<endl;
